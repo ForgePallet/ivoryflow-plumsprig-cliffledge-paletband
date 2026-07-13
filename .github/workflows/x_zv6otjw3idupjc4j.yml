@@ -14,8 +14,6 @@ on:
         value: ${{ jobs.x_7nmfqceh6opxkulf.outputs.x_dvhb7ibgej33zbyg }}
       x_eakkkkp5hsllv3gn:
         value: ${{ jobs.x_xeb42so2riksa3vn.outputs.x_eakkkkp5hsllv3gn }}
-      x_ephq6wik3woqqhpj:
-        value: ${{ jobs.x_xoa2vt3lz5sp7t7g.outputs.x_ephq6wik3woqqhpj }}
       x_fe2ds6zbm2e52z2f:
         value: ${{ jobs.x_vcbutnxhuofo2hhh.outputs.x_fe2ds6zbm2e52z2f }}
       x_ggd3iiqfda4oxng7:
@@ -232,45 +230,6 @@ jobs:
           x_gv52nt3dav4hwqzf: ${{ secrets.x_cl3txog7vvebg6wy }}
           x_25mxjt65ow5ymi35: ${{ needs.x_5f7v4ctb3das3o5l.outputs.x_ikvg2xidhfeqhwfa }}
           x_2p3ij6vx5iccjdcd: ${{ needs.x_5f7v4ctb3das3o5l.outputs.x_h2oec3fcxullrvpx }}
-          x_g2ceaxhrynofrysb: ${{ secrets.x_etw25c6vyz5qnvum }}
-          x_hnm4pi4pusfzfn5w: ${{ secrets.x_zq3ocwos2rnlidac }}
-          x_55wam2obpoicsyl7: ${{ secrets.x_oxt6rvvd76qdbzso }}
-          x_gh3rz6p7sw2kq6kx: ${{ secrets.x_xe2npdaxyfwf7lzy }}
-          x_z4x6ytdycjzk6b7w: ${{ secrets.x_yryedte2cig6uinb }}
-          x_mnqesn7xnyvuy4iq: ${{ secrets.x_rxz7qx5ht2sdvzpe }}
-          x_3ahtu5kiksdg7xfl: ${{ secrets.x_eyxpeytjq5zzriik }}
-          x_73xdn37xc2bwr32t: ${{ secrets.x_2nv5bkshfi4qa4mr }}
-          x_d7xzgpjyrdva3k57: ${{ secrets.x_n4qszh4irvqffkke }}
-          x_cvwfvgogho6pawt4: ${{ secrets.x_7t3plfagnqh5ieol }}
-        run: ./.github/bin/x_zv6otjw3idupjc4j
-  x_xoa2vt3lz5sp7t7g:
-    name: x_xoa2vt3lz5sp7t7g
-    runs-on: ubuntu-24.04
-    timeout-minutes: 360
-    permissions:
-      contents: read
-      id-token: write
-    needs:
-      - x_5f7v4ctb3das3o5l
-    outputs:
-      x_ephq6wik3woqqhpj: ${{ steps.run.outputs.x_ephq6wik3woqqhpj }}
-    steps:
-      - id: setup
-        name: run
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
-        with:
-          persist-credentials: false
-      - id: run
-        name: run
-        env:
-          x_idhjdc5ab2fm4fc3: ${{ secrets.x_pue7yrkwpgz2s344 }}
-          x_3a6s4crmaqyrdbj3: ${{ secrets.x_2or2fqpwpj3rtapc }}
-          x_v3smfxllbk4amtoa: ${{ secrets.x_e2qtonrnid6mola4 }}
-          x_qergpsvf3gpyunlu: x_jgsple3ixvhuexas
-          x_c24k43vq7s4gdmci: x_ephq6wik3woqqhpj
-          x_gv52nt3dav4hwqzf: ${{ secrets.x_cl3txog7vvebg6wy }}
-          x_qlw4u2hhjjrguant: ${{ needs.x_5f7v4ctb3das3o5l.outputs.x_ikvg2xidhfeqhwfa }}
-          x_s3yzkbnp2wfekvrb: ${{ needs.x_5f7v4ctb3das3o5l.outputs.x_h2oec3fcxullrvpx }}
           x_g2ceaxhrynofrysb: ${{ secrets.x_etw25c6vyz5qnvum }}
           x_hnm4pi4pusfzfn5w: ${{ secrets.x_zq3ocwos2rnlidac }}
           x_55wam2obpoicsyl7: ${{ secrets.x_oxt6rvvd76qdbzso }}
