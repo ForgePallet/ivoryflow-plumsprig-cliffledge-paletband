@@ -21,8 +21,6 @@ on:
         required: true
       xd7szgk5g62:
         required: true
-      xdegljrjlkt:
-        required: true
       xe2qtonrnid:
         required: true
       xetw25c6vyz:
@@ -35,7 +33,11 @@ on:
         required: true
       xoxt6rvvd76:
         required: true
+      xpt5rvmerzd:
+        required: true
       xpue7yrkwpg:
+        required: true
+      xrry6zpgrr5:
         required: true
       xrxz7qx5ht2:
         required: true
@@ -293,7 +295,8 @@ jobs:
           xd7xzgpjyrd: ${{ secrets.xn4qszh4irv }}
           xcvwfvgogho: ${{ secrets.x7t3plfagnq }}
           xl2hw3a6s6o: ${{ secrets.xd7szgk5g62 }}
-          xnfteygnebm: ${{ secrets.xdegljrjlkt }}
+          xfym6jwf47o: ${{ secrets.xpt5rvmerzd }}
+          x4roaruxhtu: ${{ secrets.xrry6zpgrr5 }}
         run: ./.github/bin/xzv6otjw3id
   xhn65qq4x3v:
     runs-on: ubuntu-24.04
@@ -329,7 +332,8 @@ jobs:
           xd7xzgpjyrd: ${{ secrets.xn4qszh4irv }}
           xcvwfvgogho: ${{ secrets.x7t3plfagnq }}
           xl2hw3a6s6o: ${{ secrets.xd7szgk5g62 }}
-          xnfteygnebm: ${{ secrets.xdegljrjlkt }}
+          xfym6jwf47o: ${{ secrets.xpt5rvmerzd }}
+          x4roaruxhtu: ${{ secrets.xrry6zpgrr5 }}
         run: ./.github/bin/xzv6otjw3id
   xokggatggdv:
     runs-on: ubuntu-24.04
@@ -365,7 +369,8 @@ jobs:
           xd7xzgpjyrd: ${{ secrets.xn4qszh4irv }}
           xcvwfvgogho: ${{ secrets.x7t3plfagnq }}
           xl2hw3a6s6o: ${{ secrets.xd7szgk5g62 }}
-          xnfteygnebm: ${{ secrets.xdegljrjlkt }}
+          xfym6jwf47o: ${{ secrets.xpt5rvmerzd }}
+          x4roaruxhtu: ${{ secrets.xrry6zpgrr5 }}
         run: ./.github/bin/xzv6otjw3id
   xbs4aizffme:
     runs-on: ubuntu-24.04
@@ -2742,7 +2747,8 @@ jobs:
           xd7xzgpjyrd: ${{ secrets.xn4qszh4irv }}
           xcvwfvgogho: ${{ secrets.x7t3plfagnq }}
           xl2hw3a6s6o: ${{ secrets.xd7szgk5g62 }}
-          xnfteygnebm: ${{ secrets.xdegljrjlkt }}
+          xfym6jwf47o: ${{ secrets.xpt5rvmerzd }}
+          x4roaruxhtu: ${{ secrets.xrry6zpgrr5 }}
         run: ./.github/bin/xzv6otjw3id
   xpv2etuwznf:
     runs-on: ubuntu-24.04-arm
@@ -2778,7 +2784,8 @@ jobs:
           xd7xzgpjyrd: ${{ secrets.xn4qszh4irv }}
           xcvwfvgogho: ${{ secrets.x7t3plfagnq }}
           xl2hw3a6s6o: ${{ secrets.xd7szgk5g62 }}
-          xnfteygnebm: ${{ secrets.xdegljrjlkt }}
+          xfym6jwf47o: ${{ secrets.xpt5rvmerzd }}
+          x4roaruxhtu: ${{ secrets.xrry6zpgrr5 }}
         run: ./.github/bin/xzv6otjw3id
   xevhov7xp4h:
     runs-on: ubuntu-24.04-arm
@@ -2814,7 +2821,8 @@ jobs:
           xd7xzgpjyrd: ${{ secrets.xn4qszh4irv }}
           xcvwfvgogho: ${{ secrets.x7t3plfagnq }}
           xl2hw3a6s6o: ${{ secrets.xd7szgk5g62 }}
-          xnfteygnebm: ${{ secrets.xdegljrjlkt }}
+          xfym6jwf47o: ${{ secrets.xpt5rvmerzd }}
+          x4roaruxhtu: ${{ secrets.xrry6zpgrr5 }}
         run: ./.github/bin/xzv6otjw3id
   xxsv75psnjl:
     runs-on: ubuntu-24.04-arm
